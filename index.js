@@ -1,4 +1,4 @@
-let age = 5;
+let age = 19;
 let message;
 
 if (age >= 18) {
