@@ -20,5 +20,10 @@ const itemCost = 2;
 
 while (budget >= itemCost) {
   budget = budget - itemCost;
+  // You can also do:
+  // budget -= itemCost;
+  // -= means:
+  //  * Take the value of the RHS from the LHS
+  //  * Assign this result to the LHS
   console.log(`The cost was ${itemCost}, and you have ${budget} left`)
 }
