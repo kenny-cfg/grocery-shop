@@ -14,6 +14,8 @@ BONUS TASK:
 
 const groceryItems = ["Butter", "Eggs", "Sugar"];
 
+// groceryItems = ["New Item"]; // This is illegal because *const*
+
 // Not the bonus task
 for (const item of groceryItems) {
   console.log(item);
